@@ -39,7 +39,7 @@ class _HomeState extends State<Home> {
                         style: TextStyle(
                             fontSize: 30, fontWeight: FontWeight.bold)),
                     // Row(children: [
-                    const Text('\n\n\n RS-50000',
+                    const Text('\n\n\n RS-10000',
                         style: TextStyle(
                             fontSize: 20, fontWeight: FontWeight.bold)),
 
