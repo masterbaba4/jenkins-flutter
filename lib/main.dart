@@ -68,8 +68,8 @@ class _HomepageState extends State<Homepage>
           child: child,
           decoration: BoxDecoration(
               color: (selectedTab != index - 1
-                  ? Color.fromARGB(255, 41, 26, 248)
-                  : Color.fromARGB(0, 0, 0, 0)),
+                  ? const Color.fromARGB(255, 41, 26, 248)
+                  : const Color.fromARGB(0, 0, 0, 0)),
               borderRadius: generateBorderRadius(index)),
         ),
       ),
@@ -86,18 +86,18 @@ class _HomepageState extends State<Homepage>
               'Tab ${controller.index + 1}',
             ),
             centerTitle: true,
-            backgroundColor: Color.fromARGB(255, 8, 245, 47),
+            backgroundColor: const Color.fromARGB(255, 8, 245, 47),
             elevation: 0,
             bottom: TabBar(
                 unselectedLabelColor: Colors.redAccent,
                 indicatorSize: TabBarIndicatorSize.tab,
                 indicator: BoxDecoration(
-                    gradient: LinearGradient(colors: [
+                    gradient: const LinearGradient(colors: [
                       Colors.redAccent,
                       Color.fromARGB(255, 255, 233, 64)
                     ]),
                     borderRadius: BorderRadius.circular(50),
-                    color: Color.fromARGB(255, 12, 12, 12)),
+                    color: const Color.fromARGB(255, 12, 12, 12)),
                 controller: controller,
                 tabs: [
                   getTab(

@@ -23,7 +23,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        padding: EdgeInsets.only(top: 20),
+        padding: const EdgeInsets.only(top: 20),
         child: Row(
           children: [
             Column(
@@ -35,17 +35,17 @@ class _HomeState extends State<Home> {
                       height: 120,
                       width: 120,
                     ),
-                    Text('Teddy',
+                    const Text('Teddy',
                         style: TextStyle(
                             fontSize: 30, fontWeight: FontWeight.bold)),
                     // Row(children: [
-                    Text('\n\n\n RS-50000',
+                    const Text('\n\n\n RS-50000',
                         style: TextStyle(
                             fontSize: 20, fontWeight: FontWeight.bold)),
 
                     // ]),
                     // Row(children: [
-                    Text('*****',
+                    const Text('*****',
                         style: TextStyle(
                             fontSize: 30, fontWeight: FontWeight.bold)),
                     // ]),
@@ -58,17 +58,17 @@ class _HomeState extends State<Home> {
                       height: 120,
                       width: 120,
                     ),
-                    Text('Teddy',
+                    const Text('Teddy',
                         style: TextStyle(
                             fontSize: 30, fontWeight: FontWeight.bold)),
                     // Row(children: [
-                    Text('\n\n\n RS -40000',
+                    const Text('\n\n\n RS -40000',
                         style: TextStyle(
                             fontSize: 20, fontWeight: FontWeight.bold)),
 
                     // ]),
                     // Row(children: [
-                    Text('*****',
+                    const Text('*****',
                         style: TextStyle(
                             fontSize: 30, fontWeight: FontWeight.bold)),
                     // ]),
@@ -81,26 +81,26 @@ class _HomeState extends State<Home> {
                       height: 120,
                       width: 120,
                     ),
-                    Text('Teddy',
+                    const Text('Teddy',
                         style: TextStyle(
                             fontSize: 30, fontWeight: FontWeight.bold)),
                     // Row(children: [
-                    Text('\n\n\n RS -50000',
+                    const Text('\n\n\n RS -50000',
                         style: TextStyle(
                             fontSize: 20, fontWeight: FontWeight.bold)),
 
                     // ]),
                     // Row(children: [
-                    Text('*****',
+                    const Text('*****',
                         style: TextStyle(
                             fontSize: 30, fontWeight: FontWeight.bold)),
                     // ]),
                   ],
                 ),
-                Padding(padding: EdgeInsets.only(top: 60)),
+                const Padding(padding: EdgeInsets.only(top: 60)),
                 Row(
                   children: [
-                    Text('*****',
+                    const Text('*****',
                         style: TextStyle(
                             fontSize: 50, fontWeight: FontWeight.bold))
                   ],
